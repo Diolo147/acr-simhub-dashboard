@@ -1,0 +1,16 @@
+{
+  "utc": "2026-10-09T16:12:08.9195142Z",
+  "plugin": "ACRControlsPlugin",
+  "valid": true,
+  "status": "自动定位 / 当前车辆设置",
+  "abs_enabled": true,
+  "abs_level": 1,
+  "tcs_enabled": false,
+  "tcs_level": 1,
+  "session_only": false,
+  "automatic_locator": true,
+  "pid": 49008,
+  "object_address": "0x234061a40c0",
+  "locate_ms": 113.8812,
+  "game_key": "b78cf358-340c-4c04-8903-3ce9d41d1e47|VW Polo GTI R5|威尔士 Severn"
+}

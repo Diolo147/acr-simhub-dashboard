@@ -1,0 +1,76 @@
+{
+  "record": "status-test-20261009-220543.jsonl",
+  "samples": 300,
+  "duration_s": 60.25743007659912,
+  "fields": {
+    "physics.ignitionOn": [
+      "1"
+    ],
+    "physics.isEngineRunning": [
+      "0",
+      "1"
+    ],
+    "physics.starterEngineOn": [
+      "0",
+      "1"
+    ],
+    "physics.abs": [
+      "0.0"
+    ],
+    "physics.tc": [
+      "0.0"
+    ],
+    "physics.tyreWear": [
+      "[0.0, 0.0, 0.0, 0.0]"
+    ],
+    "physics.carDamage": [
+      "[0.0, 0.0, 0.0, 0.0, 0.0]"
+    ],
+    "physics.suspensionDamage": [
+      "[0.0, 0.0, 0.0, 0.0]"
+    ],
+    "physics.brakeBias": [
+      "0.6000000238418579"
+    ],
+    "graphics.EngineMap": [
+      "0"
+    ],
+    "graphics.ABS": [
+      "0"
+    ],
+    "graphics.TC": [
+      "0"
+    ],
+    "graphics.lightsStage": [
+      "0"
+    ],
+    "graphics.Clock": [
+      "0.0"
+    ],
+    "graphics.rainIntensity": [
+      "0"
+    ],
+    "graphics.rainIntensityIn10min": [
+      "0"
+    ],
+    "graphics.rainIntensityIn30min": [
+      "0"
+    ],
+    "graphics.tyreCompound": [
+      "\"\""
+    ],
+    "static.aidAutoClutch": [
+      "0"
+    ]
+  },
+  "air_c_range": [
+    10.427117919921898,
+    10.438928222656273
+  ],
+  "notes": [
+    "Engine running and starter changed; menu test did not change Graphics EngineMap/ABS/lightsStage.",
+    "Zero damage on an undamaged car cannot prove damage support or provide a health percentage.",
+    "Do not interpret placeholder zero as ABS/TCS off or weather clear.",
+    "Valve pressure from menu is not BrakeBias or wheel brakePressure."
+  ]
+}

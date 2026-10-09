@@ -1,0 +1,100 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert');
+const base=require('path').resolve(__dirname,'..')+'/';
+const catalogFile=fs.existsSync(base+'work/live-catalog.json')?'work/live-catalog.json':'work/fixtures/live-catalog.json';
+const data=JSON.parse(fs.readFileSync(base+catalogFile,'utf8'));
+const properties=Object.fromEntries(data.properties.map(p=>[p.name,p.value]));
+let now=10000;
+const context=vm.createContext({root:{},$prop:n=>properties[n],Date:{now:()=>now}});
+vm.runInContext(fs.readFileSync(base+'src/acr.js','utf8'),context);
+const evalJS=s=>vm.runInContext('(function(){'+s+'})()',context);
+const value=k=>evalJS(`return acrValue('${k}');`);
+assert.strictEqual(value('rpm'),1918);
+assert(Math.abs(value('pressure1')-26.0)<0.0001);
+assert(Math.abs(value('brakeTemp1')-19.2783)<0.01);
+assert(Math.abs(value('load1')-6.403)<0.01);
+assert(Math.abs(value('susp1')-83.6)<0.2);
+assert.strictEqual(value('maxrpm'),7583);
+assert.strictEqual(value('speed'),0);
+assert.strictEqual(value('throttle'),0);
+properties['DataCorePlugin.GameRawData.Physics.SteerAngle']=-1;assert.strictEqual(value('steer'),-100);
+properties['DataCorePlugin.GameRawData.Physics.SteerAngle']=1;assert.strictEqual(value('steer'),100);
+properties['DataCorePlugin.GameRawData.Physics.AccG01']=0.5;properties['DataCorePlugin.GameRawData.Physics.AccG03']=1;assert.strictEqual(value('gx'),-0.5);assert.strictEqual(value('gy'),1);
+delete properties['DataCorePlugin.GameRawData.Physics.AccG01'];assert.strictEqual(value('gx'),null);
+assert.strictEqual(evalJS('return acrMap();'),false);
+const dash=JSON.parse(fs.readFileSync(base+'build/ACR Rally 21x9/ACR Rally 21x9.djson','utf8'));
+let count=0; const sid=new Set();
+function visit(items) {for(const item of items) {
+ if(item.Sid!==undefined) {assert(!sid.has(item.Sid),'duplicate component Sid '+item.Sid);sid.add(item.Sid);}
+ for(const b of Object.values(item.Bindings||{})) {const result=evalJS(b.Formula.Expression);assert(!(typeof result==='number'&&!Number.isFinite(result))); count++;}
+ if(item.Childrens)visit(item.Childrens);
+}}
+visit(dash.Screens[0].Items);
+const key='DataCorePlugin.GameRawData.Physics.PacketId';
+properties['DataCorePlugin.GameData.SpeedKmh']=40;
+now+=100; properties[key]++;evalJS('return acrState();');
+now+=100; properties[key]++; assert(evalJS('return acrState().elapsed;')>0);
+now+=4000; assert.strictEqual(value('speed'),null);assert(evalJS('return acrState().stale;'));
+properties['DataCorePlugin.GameRunning']=false;assert.strictEqual(value('speed'),null);assert.strictEqual(evalJS('return acrState().peak;'),0);
+properties['DataCorePlugin.GameRunning']=true; properties['DataCorePlugin.CurrentGame']='AssettoCorsaCompetizione';assert.strictEqual(value('rpm'),null);
+properties['DataCorePlugin.CurrentGame']='AssettoCorsaRally'; properties[key]=1; properties['DataCorePlugin.GameData.SpeedKmh']=0;
+assert.strictEqual(evalJS('return acrState().elapsed;'),0);
+delete properties['DataCorePlugin.GameData.TyrePressureFrontLeft'];assert.strictEqual(value('pressure1'),null);
+properties['DataCorePlugin.GameData.WaterTemperature']=0;properties['DataCorePlugin.GameRawData.Physics.waterTemperature']=273.15; assert.strictEqual(value('water'),0);
+delete properties['DataCorePlugin.GameData.CarSettings_MaxRPM'];delete properties['DataCorePlugin.GameRawData.StaticInfo.MaxRpm'];assert.strictEqual(value('maxrpm'),null);
+properties['DataCorePlugin.GameData.TyreTemperatureFrontLeft']=15;assert.strictEqual(evalJS("return acrTyreColor('tyreTemp1');"),'#FF22DDE1');
+properties['DataCorePlugin.GameData.TyreTemperatureFrontLeft']=100;assert.strictEqual(evalJS("return acrTyreColor('tyreTemp1');"),'#FFFF5B6E');
+properties['DataCorePlugin.GameData.TyreTemperatureFrontLeft']=200;assert.strictEqual(evalJS("return acrTyreColor('tyreTemp1');"),'#FFFF5B6E');
+delete properties['DataCorePlugin.GameData.TyreTemperatureFrontLeft'];assert.strictEqual(evalJS("return acrTyreColor('tyreTemp1');"),'#FF35404C');
+console.log(JSON.stringify({bindings:count,components:sid.size,recordedSnapshot:data.generatedAt,checks:'units, zero, missing fields, stale telemetry, exit, wrong game, restart, max RPM fallback',status:'PASS'},null,2));
+
+
+// Newly supported controls: valid zeros, unavailable flags and Kelvin boundaries.
+properties['DataCorePlugin.GameRawData.Physics.isEngineRunning']=0;
+assert.strictEqual(evalJS("return acrControlText('engine');"),'停止');
+properties['DataCorePlugin.GameRawData.Physics.isEngineRunning']=1;
+assert.strictEqual(evalJS("return acrControlText('engine');"),'运行');
+delete properties['DataCorePlugin.GameRawData.Physics.isEngineRunning'];
+assert.strictEqual(evalJS("return acrControlText('engine');"),'—');
+assert.strictEqual(evalJS("return acrControlText('engineMap');"),'—');
+assert.strictEqual(evalJS("return acrControlText('lights');"),'—');
+properties['DataCorePlugin.GameRawData.Physics.AirTemp']=273.15;
+assert.strictEqual(value('air'),0);
+properties['DataCorePlugin.GameRawData.Physics.AirTemp']=283.15;
+assert(Math.abs(value('air')-10)<0.0001);
+properties['DataCorePlugin.GameRawData.Physics.AirTemp']=0;
+assert.strictEqual(value('air'),null);
+properties['DataCorePlugin.GameRunning']=false;
+assert.strictEqual(evalJS("return acrControlText('ignition');"),'—');
+assert.strictEqual(value('road'),null);
+console.log('Control availability, engine off/missing, ambient Kelvin and exit: PASS');
+properties['DataCorePlugin.GameRunning']=true;properties['DataCorePlugin.GameRawData.Physics.PacketId']++;
+properties['DataCorePlugin.GameRawData.Physics.TyreCoreTemperature01']=273.15;
+for(const [temperature,color] of [[0,'#FF4596FF'],[15,'#FF22DDE1'],[25,'#FF43E58E'],[32,'#FFC7E05A'],[35,'#FFFFDE44'],[50,'#FFFF9635'],[65,'#FFFF5B6E'],[100,'#FFFF5B6E']]) {
+ properties['DataCorePlugin.GameData.TyreTemperatureFrontLeft']=temperature;
+ assert.strictEqual(evalJS("return acrTyreColor('tyreTemp1');"),color);
+}
+delete properties['DataCorePlugin.GameData.TyreTemperatureFrontLeft'];assert.strictEqual(evalJS("return acrTyreColor('tyreTemp1');"),'#FF35404C');
+console.log('Tyre absolute anchors, 32C interpolation, zero/missing and clamp: PASS');
+properties['DataCorePlugin.GameRawData.Physics.PacketId']++;
+properties['ACRControlsPlugin.Valid']=true;properties['ACRControlsPlugin.AgeMs']=0;
+properties['ACRControlsPlugin.ABS.Enabled']=true;properties['ACRControlsPlugin.ABS.Level']=2;
+properties['ACRControlsPlugin.TCS.Enabled']=true;properties['ACRControlsPlugin.TCS.Level']=1;
+assert.strictEqual(evalJS("return acrControlText('absMode');"),'开启 · 2档');
+assert.strictEqual(evalJS("return acrControlText('tcMode');"),'开启 · 1档');
+properties['ACRControlsPlugin.ABS.Enabled']=false;
+assert.strictEqual(evalJS("return acrControlText('absMode');"),'关闭');
+properties['ACRControlsPlugin.AgeMs']=1600;
+assert.strictEqual(evalJS("return acrControlText('absMode');"),'—');
+properties['ACRControlsPlugin.AgeMs']=0;properties['ACRControlsPlugin.Valid']=false;
+assert.strictEqual(evalJS("return acrControlText('tcMode');"),'—');
+properties['ACRControlsPlugin.Valid']=true;delete properties['ACRControlsPlugin.TCS.Level'];
+assert.strictEqual(evalJS("return acrControlText('tcMode');"),'—');
+properties['DataCorePlugin.GameRunning']=false;
+assert.strictEqual(evalJS("return acrControlText('absMode');"),'—');
+console.log('Native settings bridge: on/level, legal off, stale/missing/invalid and game exit: PASS');
+properties['DataCorePlugin.GameRunning']=true;properties['DataCorePlugin.GameRawData.Physics.PacketId']++;
+properties['ACRControlsPlugin.AutomaticLocator']=true;
+assert.strictEqual(evalJS('return acrControlSource();'),'菜单设置 / 自动定位');
+properties['ACRControlsPlugin.Valid']=false;
+assert.notStrictEqual(evalJS('return acrControlSource();'),'菜单设置 / 自动定位');
+console.log('Automatic locator source and invalid-state caption: PASS');

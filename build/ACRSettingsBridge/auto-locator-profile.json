@@ -1,0 +1,16 @@
+{
+  "mode": "automatic-uobject",
+  "image": "I:\\SteamLibrary\\steamapps\\common\\Assetto Corsa Rally\\acr\\Binaries\\Win64\\acr.exe",
+  "pe_timestamp": 84786969,
+  "image_size": 202649600,
+  "sha256": "42c359b0cd24774a86441710fdc7d7db3bc06b57b3ff30cb9ea5d56fb71448fb",
+  "gobjects_rva": "0xb35f5b0",
+  "state_vtable_rva": "0x9e7e298",
+  "state_anchor_offset": 252,
+  "observed_level_indices": [
+    0,
+    1,
+    2
+  ],
+  "steam_build": 25170642
+}

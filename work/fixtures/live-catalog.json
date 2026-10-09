@@ -1,0 +1,3604 @@
+{
+  "simHubVersion": "9.12.8",
+  "generatedAt": "2026-09-29T11:29:05.5275506+00:00",
+  "activeGame": {
+    "name": "AssettoCorsaRally",
+    "code": "AssettoCorsaRally",
+    "isRunning": true
+  },
+  "properties": [
+    {
+      "name": "DataCorePlugin.Computed.Fuel_CurrentLapConsumption",
+      "type": "System.Double",
+      "value": -1.0
+    },
+    {
+      "name": "DataCorePlugin.Computed.Fuel_CurrentLapIsValidForTracking",
+      "type": "System.Int32",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.Computed.Fuel_LastLapConsumption",
+      "type": "System.Double",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.Computed.Fuel_LitersPerLap",
+      "type": "System.Double",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.Computed.Fuel_Percent",
+      "type": "System.Double",
+      "value": 100.0
+    },
+    {
+      "name": "DataCorePlugin.Computed.Fuel_RemainingLaps",
+      "type": "System.Double",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.Computed.Fuel_RemainingTime",
+      "type": "System.TimeSpan",
+      "value": "00:00:00"
+    },
+    {
+      "name": "DataCorePlugin.CurrentDateTime",
+      "type": "System.DateTime",
+      "value": "2026-09-29T19:29:05.5303415+08:00"
+    },
+    {
+      "name": "DataCorePlugin.CurrentGame",
+      "type": "System.String",
+      "value": "AssettoCorsaRally"
+    },
+    {
+      "name": "DataCorePlugin.CurrentGameReaderVariation",
+      "type": "System.String",
+      "value": null
+    },
+    {
+      "name": "DataCorePlugin.CustomExpression.CompactDelta",
+      "type": "System.Object",
+      "value": "0.0"
+    },
+    {
+      "name": "DataCorePlugin.DataUpdateFps",
+      "type": "System.Double",
+      "value": 10.004229788354515
+    },
+    {
+      "name": "DataCorePlugin.DayNightMode",
+      "type": "System.String",
+      "value": "Day"
+    },
+    {
+      "name": "DataCorePlugin.DefaultSoundInputIsMuted",
+      "type": "System.Int32",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.ExternalScript.BlinkingGear",
+      "type": "System.Object",
+      "value": "1"
+    },
+    {
+      "name": "DataCorePlugin.ExternalScript.BlinkingGearUP",
+      "type": "System.Object",
+      "value": "1"
+    },
+    {
+      "name": "DataCorePlugin.GameData.ABSActive",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameData.ABSLevel",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameData.AccelerationHeave",
+      "type": "System.Object",
+      "value": -0.0005157415700142973
+    },
+    {
+      "name": "DataCorePlugin.GameData.AccelerationSurge",
+      "type": "System.Object",
+      "value": 7.572365938200952e-05
+    },
+    {
+      "name": "DataCorePlugin.GameData.AccelerationSway",
+      "type": "System.Object",
+      "value": 0.0011330810146243872
+    },
+    {
+      "name": "DataCorePlugin.GameData.AirTemperature",
+      "type": "System.Object",
+      "value": 19.8
+    },
+    {
+      "name": "DataCorePlugin.GameData.AllTimeBest",
+      "type": "System.Object",
+      "value": "00:00:00"
+    },
+    {
+      "name": "DataCorePlugin.GameData.BestLapOpponentPosition",
+      "type": "System.Object",
+      "value": -1
+    },
+    {
+      "name": "DataCorePlugin.GameData.BestLapOpponentSameClassPosition",
+      "type": "System.Object",
+      "value": -1
+    },
+    {
+      "name": "DataCorePlugin.GameData.BestLapTime",
+      "type": "System.Object",
+      "value": "00:00:00"
+    },
+    {
+      "name": "DataCorePlugin.GameData.BestSplitDelta",
+      "type": "System.Object",
+      "value": null
+    },
+    {
+      "name": "DataCorePlugin.GameData.Brake",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.BrakeBias",
+      "type": "System.Object",
+      "value": 52.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.BrakesTemperatureAvg",
+      "type": "System.Object",
+      "value": 19.28
+    },
+    {
+      "name": "DataCorePlugin.GameData.BrakesTemperatureMax",
+      "type": "System.Object",
+      "value": 19.28
+    },
+    {
+      "name": "DataCorePlugin.GameData.BrakesTemperatureMin",
+      "type": "System.Object",
+      "value": 19.28
+    },
+    {
+      "name": "DataCorePlugin.GameData.BrakeTemperatureFrontLeft",
+      "type": "System.Object",
+      "value": 19.28
+    },
+    {
+      "name": "DataCorePlugin.GameData.BrakeTemperatureFrontRight",
+      "type": "System.Object",
+      "value": 19.28
+    },
+    {
+      "name": "DataCorePlugin.GameData.BrakeTemperatureRearLeft",
+      "type": "System.Object",
+      "value": 19.28
+    },
+    {
+      "name": "DataCorePlugin.GameData.BrakeTemperatureRearRight",
+      "type": "System.Object",
+      "value": 19.28
+    },
+    {
+      "name": "DataCorePlugin.GameData.CarClass",
+      "type": "System.Object",
+      "value": null
+    },
+    {
+      "name": "DataCorePlugin.GameData.CarCoordinates01",
+      "type": "System.Object",
+      "value": null
+    },
+    {
+      "name": "DataCorePlugin.GameData.CarCoordinates02",
+      "type": "System.Object",
+      "value": null
+    },
+    {
+      "name": "DataCorePlugin.GameData.CarCoordinates03",
+      "type": "System.Object",
+      "value": null
+    },
+    {
+      "name": "DataCorePlugin.GameData.CarDamage1",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.CarDamage2",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.CarDamage3",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.CarDamage4",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.CarDamage5",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.CarDamagesAvg",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.CarDamagesMax",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.CarDamagesMin",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.CarId",
+      "type": "System.Object",
+      "value": "Hyundai i20N Rally2"
+    },
+    {
+      "name": "DataCorePlugin.GameData.CarModel",
+      "type": "System.Object",
+      "value": "Hyundai i20N Rally2"
+    },
+    {
+      "name": "DataCorePlugin.GameData.CarSettings_CurrentDisplayedRPMPercent",
+      "type": "System.Object",
+      "value": 25.293419490966635
+    },
+    {
+      "name": "DataCorePlugin.GameData.CarSettings_CurrentGearRedLineRPM",
+      "type": "System.Object",
+      "value": 7203.85
+    },
+    {
+      "name": "DataCorePlugin.GameData.CarSettings_FuelAlertActive",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameData.CarSettings_FuelAlertEnabled",
+      "type": "System.Object",
+      "value": 1
+    },
+    {
+      "name": "DataCorePlugin.GameData.CarSettings_FuelAlertLaps",
+      "type": "System.Object",
+      "value": 1.2
+    },
+    {
+      "name": "DataCorePlugin.GameData.CarSettings_MaxFUEL",
+      "type": "System.Object",
+      "value": 30.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.CarSettings_MaxGears",
+      "type": "System.Object",
+      "value": 1
+    },
+    {
+      "name": "DataCorePlugin.GameData.CarSettings_MaxRPM",
+      "type": "System.Object",
+      "value": 7583.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.CarSettings_RedLineDisplayedPercent",
+      "type": "System.Object",
+      "value": 95.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.CarSettings_RedLineRPM",
+      "type": "System.Object",
+      "value": 7203.85
+    },
+    {
+      "name": "DataCorePlugin.GameData.CarSettings_RPMRedLinePerGearOverride",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameData.CarSettings_RPMRedLineReached",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.CarSettings_RPMRedLineSetting",
+      "type": "System.Object",
+      "value": 95.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.CarSettings_RPMShiftLight1",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.CarSettings_RPMShiftLight2",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.Clutch",
+      "type": "System.Object",
+      "value": 100.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.CompletedLaps",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameData.CurrentLap",
+      "type": "System.Object",
+      "value": 1
+    },
+    {
+      "name": "DataCorePlugin.GameData.CurrentLapTime",
+      "type": "System.Object",
+      "value": "00:00:00"
+    },
+    {
+      "name": "DataCorePlugin.GameData.CurrentSectorIndex",
+      "type": "System.Object",
+      "value": 1
+    },
+    {
+      "name": "DataCorePlugin.GameData.DeltaToAllTimeBest",
+      "type": "System.Object",
+      "value": null
+    },
+    {
+      "name": "DataCorePlugin.GameData.DeltaToSessionBest",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.DRSAvailable",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameData.DRSEnabled",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameData.EngineIgnitionOn",
+      "type": "System.Object",
+      "value": 1
+    },
+    {
+      "name": "DataCorePlugin.GameData.EngineMap",
+      "type": "System.Object",
+      "value": 1
+    },
+    {
+      "name": "DataCorePlugin.GameData.EngineStarted",
+      "type": "System.Object",
+      "value": 1
+    },
+    {
+      "name": "DataCorePlugin.GameData.EngineTorque",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.ERSMax",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.ERSPercent",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.ERSStored",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.Flag_Black",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameData.Flag_Blue",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameData.Flag_Checkered",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameData.Flag_Green",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameData.Flag_Name",
+      "type": "System.Object",
+      "value": ""
+    },
+    {
+      "name": "DataCorePlugin.GameData.Flag_Orange",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameData.Flag_White",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameData.Flag_Yellow",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameData.Fuel",
+      "type": "System.Object",
+      "value": 30.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.FuelPercent",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.FuelUnit",
+      "type": "System.Object",
+      "value": "Liters"
+    },
+    {
+      "name": "DataCorePlugin.GameData.Gear",
+      "type": "System.Object",
+      "value": "1"
+    },
+    {
+      "name": "DataCorePlugin.GameData.GlobalAccelerationG",
+      "type": "System.Object",
+      "value": -7.572365938200952e-05
+    },
+    {
+      "name": "DataCorePlugin.GameData.GroundSpeedKmH",
+      "type": "System.Object",
+      "value": 0.003213278832691073
+    },
+    {
+      "name": "DataCorePlugin.GameData.GroundSpeedLocal",
+      "type": "System.Object",
+      "value": 0.003213278832691073
+    },
+    {
+      "name": "DataCorePlugin.GameData.Handbrake",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.HasMultipleClassOpponents",
+      "type": "System.Object",
+      "value": false
+    },
+    {
+      "name": "DataCorePlugin.GameData.InstantConsumption_L100KM",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.InstantConsumption_MPG_UK",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.InstantConsumption_MPG_US",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.IsGameReplay",
+      "type": "System.Object",
+      "value": false
+    },
+    {
+      "name": "DataCorePlugin.GameData.IsInPit",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameData.IsInPitLane",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameData.IsInPitSince",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.IsSessionRestart",
+      "type": "System.Object",
+      "value": false
+    },
+    {
+      "name": "DataCorePlugin.GameData.LapInvalidated",
+      "type": "System.Object",
+      "value": true
+    },
+    {
+      "name": "DataCorePlugin.GameData.LastLapTime",
+      "type": "System.Object",
+      "value": "00:00:00"
+    },
+    {
+      "name": "DataCorePlugin.GameData.LastLapTyreWearFrontLeft",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.LastLapTyreWearFrontRight",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.LastLapTyreWearRearLeft",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.LastLapTyreWearRearRight",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.LastPitStopDuration",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.LastSectorTime",
+      "type": "System.Object",
+      "value": "00:00:00"
+    },
+    {
+      "name": "DataCorePlugin.GameData.LastSectorTimeAnyLap",
+      "type": "System.Object",
+      "value": "00:00:00"
+    },
+    {
+      "name": "DataCorePlugin.GameData.MapAllowed",
+      "type": "System.Object",
+      "value": true
+    },
+    {
+      "name": "DataCorePlugin.GameData.MaxEngineTorque",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.MaxFuel",
+      "type": "System.Object",
+      "value": 30.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.MaxRpm",
+      "type": "System.Object",
+      "value": 7583.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.MaxSpeedKmh",
+      "type": "System.Object",
+      "value": 29.96
+    },
+    {
+      "name": "DataCorePlugin.GameData.MaxSpeedLocal",
+      "type": "System.Object",
+      "value": 29.96
+    },
+    {
+      "name": "DataCorePlugin.GameData.MaxSpeedMph",
+      "type": "System.Object",
+      "value": 18.62
+    },
+    {
+      "name": "DataCorePlugin.GameData.MaxTurbo",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.OilPressure",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.OilPressureUnit",
+      "type": "System.Object",
+      "value": "Psi"
+    },
+    {
+      "name": "DataCorePlugin.GameData.OilTemperature",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.OpponentsCount",
+      "type": "System.Object",
+      "value": 1
+    },
+    {
+      "name": "DataCorePlugin.GameData.OrientationPitch",
+      "type": "System.Object",
+      "value": -0.5677707872582687
+    },
+    {
+      "name": "DataCorePlugin.GameData.OrientationPitchAcceleration",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.OrientationPitchSanitized",
+      "type": "System.Object",
+      "value": -0.5677707872582687
+    },
+    {
+      "name": "DataCorePlugin.GameData.OrientationRoll",
+      "type": "System.Object",
+      "value": -29.134731980201195
+    },
+    {
+      "name": "DataCorePlugin.GameData.OrientationRollAcceleration",
+      "type": "System.Object",
+      "value": 8.920518641085302e-06
+    },
+    {
+      "name": "DataCorePlugin.GameData.OrientationRollSanitized",
+      "type": "System.Object",
+      "value": -29.134731980201195
+    },
+    {
+      "name": "DataCorePlugin.GameData.OrientationYaw",
+      "type": "System.Object",
+      "value": -105.44605867092287
+    },
+    {
+      "name": "DataCorePlugin.GameData.OrientationYawAcceleration",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.OrientationYawSanitized",
+      "type": "System.Object",
+      "value": -105.44605867092287
+    },
+    {
+      "name": "DataCorePlugin.GameData.OrientationYawVelocity",
+      "type": "System.Object",
+      "value": 0.018590088469995446
+    },
+    {
+      "name": "DataCorePlugin.GameData.PacketTime",
+      "type": "System.Object",
+      "value": "2026-09-29T19:29:05.4887315+08:00"
+    },
+    {
+      "name": "DataCorePlugin.GameData.PitchChangeVelocity",
+      "type": "System.Object",
+      "value": -0.011628630776727093
+    },
+    {
+      "name": "DataCorePlugin.GameData.PitchChangeVelocitySanitized",
+      "type": "System.Object",
+      "value": -0.011628661157853062
+    },
+    {
+      "name": "DataCorePlugin.GameData.PitLimiterOn",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameData.PitLimiterSpeed",
+      "type": "System.Object",
+      "value": 60.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.PlayerClassOpponentsCount",
+      "type": "System.Object",
+      "value": 1
+    },
+    {
+      "name": "DataCorePlugin.GameData.PlayerLeaderboardPosition",
+      "type": "System.Object",
+      "value": 1
+    },
+    {
+      "name": "DataCorePlugin.GameData.PlayerName",
+      "type": "System.Object",
+      "value": "Me"
+    },
+    {
+      "name": "DataCorePlugin.GameData.Position",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameData.PushToPassActive",
+      "type": "System.Object",
+      "value": false
+    },
+    {
+      "name": "DataCorePlugin.GameData.RemainingLaps",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameData.ReplayMode",
+      "type": "System.Object",
+      "value": "Live"
+    },
+    {
+      "name": "DataCorePlugin.GameData.RoadTemperature",
+      "type": "System.Object",
+      "value": 19.79
+    },
+    {
+      "name": "DataCorePlugin.GameData.RollChangeVelocity",
+      "type": "System.Object",
+      "value": 0.020737958470091685
+    },
+    {
+      "name": "DataCorePlugin.GameData.RollChangeVelocitySanitized",
+      "type": "System.Object",
+      "value": 0.020737929235296406
+    },
+    {
+      "name": "DataCorePlugin.GameData.Rpms",
+      "type": "System.Object",
+      "value": 1918.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.Sector1BestLapTime",
+      "type": "System.Object",
+      "value": null
+    },
+    {
+      "name": "DataCorePlugin.GameData.Sector1BestTime",
+      "type": "System.Object",
+      "value": null
+    },
+    {
+      "name": "DataCorePlugin.GameData.Sector1LastLapTime",
+      "type": "System.Object",
+      "value": null
+    },
+    {
+      "name": "DataCorePlugin.GameData.Sector1Time",
+      "type": "System.Object",
+      "value": null
+    },
+    {
+      "name": "DataCorePlugin.GameData.Sector2BestLapTime",
+      "type": "System.Object",
+      "value": null
+    },
+    {
+      "name": "DataCorePlugin.GameData.Sector2BestTime",
+      "type": "System.Object",
+      "value": null
+    },
+    {
+      "name": "DataCorePlugin.GameData.Sector2LastLapTime",
+      "type": "System.Object",
+      "value": null
+    },
+    {
+      "name": "DataCorePlugin.GameData.Sector2Time",
+      "type": "System.Object",
+      "value": null
+    },
+    {
+      "name": "DataCorePlugin.GameData.Sector3BestLapTime",
+      "type": "System.Object",
+      "value": null
+    },
+    {
+      "name": "DataCorePlugin.GameData.Sector3BestTime",
+      "type": "System.Object",
+      "value": null
+    },
+    {
+      "name": "DataCorePlugin.GameData.Sector3LastLapTime",
+      "type": "System.Object",
+      "value": null
+    },
+    {
+      "name": "DataCorePlugin.GameData.SectorsCount",
+      "type": "System.Object",
+      "value": null
+    },
+    {
+      "name": "DataCorePlugin.GameData.SelfsplitDelta",
+      "type": "System.Object",
+      "value": null
+    },
+    {
+      "name": "DataCorePlugin.GameData.SessionOdo",
+      "type": "System.Object",
+      "value": 46.84445515725339
+    },
+    {
+      "name": "DataCorePlugin.GameData.SessionOdoLocalUnit",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.SessionTimeLeft",
+      "type": "System.Object",
+      "value": "00:00:00"
+    },
+    {
+      "name": "DataCorePlugin.GameData.SessionTypeName",
+      "type": "System.Object",
+      "value": null
+    },
+    {
+      "name": "DataCorePlugin.GameData.Spectating",
+      "type": "System.Object",
+      "value": false
+    },
+    {
+      "name": "DataCorePlugin.GameData.SpeedKmh",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.SpeedLocal",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.SpeedLocalUnit",
+      "type": "System.Object",
+      "value": "KMH"
+    },
+    {
+      "name": "DataCorePlugin.GameData.SpeedMph",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.SpotterCarLeft",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameData.SpotterCarLeftAngle",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.SpotterCarLeftDistance",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.SpotterCarRight",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameData.SpotterCarRightAngle",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.SpotterCarRightDistance",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.StintOdo",
+      "type": "System.Object",
+      "value": 46.84445515725339
+    },
+    {
+      "name": "DataCorePlugin.GameData.StintOdoLocalUnit",
+      "type": "System.Object",
+      "value": 46.84445515725339
+    },
+    {
+      "name": "DataCorePlugin.GameData.TCActive",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameData.TCLevel",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameData.TemperatureUnit",
+      "type": "System.Object",
+      "value": "Celcius"
+    },
+    {
+      "name": "DataCorePlugin.GameData.Throttle",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.TotalLaps",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameData.TrackCode",
+      "type": "System.Object",
+      "value": "阿尔萨斯 施泰因巴赫"
+    },
+    {
+      "name": "DataCorePlugin.GameData.TrackConfig",
+      "type": "System.Object",
+      "value": ""
+    },
+    {
+      "name": "DataCorePlugin.GameData.TrackId",
+      "type": "System.Object",
+      "value": "DT__260928075639"
+    },
+    {
+      "name": "DataCorePlugin.GameData.TrackLength",
+      "type": "System.Object",
+      "value": 9513.6572265625
+    },
+    {
+      "name": "DataCorePlugin.GameData.TrackName",
+      "type": "System.Object",
+      "value": "阿尔萨斯 施泰因巴赫"
+    },
+    {
+      "name": "DataCorePlugin.GameData.TrackNameWithConfig",
+      "type": "System.Object",
+      "value": "阿尔萨斯 施泰因巴赫"
+    },
+    {
+      "name": "DataCorePlugin.GameData.TrackPositionMeters",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.TrackPositionPercent",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.Turbo",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.TurboPercent",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.TurnIndicatorLeft",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameData.TurnIndicatorRight",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameData.TyreDirtFrontLeft",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.TyreDirtFrontRight",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.TyreDirtRearLeft",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.TyreDirtRearRight",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.TyrePressureFrontLeft",
+      "type": "System.Object",
+      "value": 26.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.TyrePressureFrontRight",
+      "type": "System.Object",
+      "value": 26.01
+    },
+    {
+      "name": "DataCorePlugin.GameData.TyrePressureRearLeft",
+      "type": "System.Object",
+      "value": 26.01
+    },
+    {
+      "name": "DataCorePlugin.GameData.TyrePressureRearRight",
+      "type": "System.Object",
+      "value": 26.01
+    },
+    {
+      "name": "DataCorePlugin.GameData.TyrePressureUnit",
+      "type": "System.Object",
+      "value": "Psi"
+    },
+    {
+      "name": "DataCorePlugin.GameData.TyresDirtyLevelAvg",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.TyresDirtyLevelMax",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.TyresDirtyLevelMin",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.TyresTemperatureAvg",
+      "type": "System.Object",
+      "value": 20.06
+    },
+    {
+      "name": "DataCorePlugin.GameData.TyresTemperatureMax",
+      "type": "System.Object",
+      "value": 20.12
+    },
+    {
+      "name": "DataCorePlugin.GameData.TyresTemperatureMin",
+      "type": "System.Object",
+      "value": 19.96
+    },
+    {
+      "name": "DataCorePlugin.GameData.TyresWearAvg",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.TyresWearMax",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.TyresWearMin",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.TyreTemperatureFrontLeft",
+      "type": "System.Object",
+      "value": 19.96
+    },
+    {
+      "name": "DataCorePlugin.GameData.TyreTemperatureFrontLeftInner",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.TyreTemperatureFrontLeftMiddle",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.TyreTemperatureFrontLeftOuter",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.TyreTemperatureFrontRight",
+      "type": "System.Object",
+      "value": 20.08
+    },
+    {
+      "name": "DataCorePlugin.GameData.TyreTemperatureFrontRightInner",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.TyreTemperatureFrontRightMiddle",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.TyreTemperatureFrontRightOuter",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.TyreTemperatureRearLeft",
+      "type": "System.Object",
+      "value": 20.08
+    },
+    {
+      "name": "DataCorePlugin.GameData.TyreTemperatureRearLeftInner",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.TyreTemperatureRearLeftMiddle",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.TyreTemperatureRearLeftOuter",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.TyreTemperatureRearRight",
+      "type": "System.Object",
+      "value": 20.12
+    },
+    {
+      "name": "DataCorePlugin.GameData.TyreTemperatureRearRightInner",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.TyreTemperatureRearRightMiddle",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.TyreTemperatureRearRightOuter",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.TyreWearFrontLeft",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.TyreWearFrontRight",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.TyreWearRearLeft",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.TyreWearRearRight",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameData.WaterTemperature",
+      "type": "System.Object",
+      "value": 71.37
+    },
+    {
+      "name": "DataCorePlugin.GameData.YawChangeVelocity",
+      "type": "System.Object",
+      "value": -0.014741215080285495
+    },
+    {
+      "name": "DataCorePlugin.GameData.YawChangeVelocitySanitized",
+      "type": "System.Object",
+      "value": -0.014741227237152647
+    },
+    {
+      "name": "DataCorePlugin.GameNotification_Active",
+      "type": "System.Boolean",
+      "value": false
+    },
+    {
+      "name": "DataCorePlugin.GameNotification_Content",
+      "type": "System.String",
+      "value": null
+    },
+    {
+      "name": "DataCorePlugin.GameNotification_Title",
+      "type": "System.String",
+      "value": null
+    },
+    {
+      "name": "DataCorePlugin.GamePaused",
+      "type": "System.Int32",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.ABS",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.BestTime",
+      "type": "System.Object",
+      "value": ""
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.CarCount",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.clock",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.CompletedLaps",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.CurrentSectorIndex",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.CurrentTime",
+      "type": "System.Object",
+      "value": "03:28.807"
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.currentTyreSet",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.deltaLapTime",
+      "type": "System.Object",
+      "value": ""
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.directionLightsLeft",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.directionLightsRight",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.DistanceTraveled",
+      "type": "System.Object",
+      "value": 418.935974
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.DriverStintTimeLeft",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.DriverStintTotalTimeLeft",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.EngineMap",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.EstimatedLapTime",
+      "type": "System.Object",
+      "value": ""
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.ExhaustTemperature",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.Flag",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.FlagsDetails.IsACC_BLACK_FLAG",
+      "type": "System.Object",
+      "value": false
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.FlagsDetails.IsACC_BLUE_FLAG",
+      "type": "System.Object",
+      "value": false
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.FlagsDetails.IsACC_CHECKERED_FLAG",
+      "type": "System.Object",
+      "value": false
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.FlagsDetails.IsACC_GREEN_FLAG",
+      "type": "System.Object",
+      "value": false
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.FlagsDetails.IsACC_NO_FLAG",
+      "type": "System.Object",
+      "value": true
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.FlagsDetails.IsACC_ORANGE_FLAG",
+      "type": "System.Object",
+      "value": false
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.FlagsDetails.IsACC_PENALTY_FLAG",
+      "type": "System.Object",
+      "value": false
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.FlagsDetails.IsACC_WHITE_FLAG",
+      "type": "System.Object",
+      "value": false
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.FlagsDetails.IsACC_YELLOW_FLAG",
+      "type": "System.Object",
+      "value": false
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.FlashingLights",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.fuelEstimatedLaps",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.FuelXLap",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.gapAhead",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.gapBehind",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.globalChequered",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.globalGreen",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.globalRed",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.globalWhite",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.globalYellow",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.globalYellow1",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.globalYellow2",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.globalYellow3",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.iBestTime",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.iCurrentTime",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.IdealLineOn",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.iDeltaLapTime",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.iEstimatedLapTime",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.iLastTime",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.isDeltaPositive",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.IsInPit",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.IsInPitLane",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.iSplit",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.IsSetupMenuVisible",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.isValidLap",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.LastSectorTime",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.LastTime",
+      "type": "System.Object",
+      "value": ""
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.LightsStage",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.MainDisplayIndex",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.MandatoryPitDone",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.mfdFuelToAdd",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.mfdTyrePressureLF",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.mfdTyrePressureLR",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.mfdTyrePressureRF",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.mfdTyrePressureRR",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.mfdTyreSet",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.missingMandatoryPits",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.NormalizedCarPosition",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.NumberOfLaps",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.PacketId",
+      "type": "System.Object",
+      "value": 19825
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.Penalty",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.PenaltyTime",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.PlayerCarID",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.Position",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.rainIntensity",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.rainIntensityIn10min",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.rainIntensityIn30min",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.RainLights",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.RainTyres",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.ReplayTimeMultiplier",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.SecondaryDisplayIndex",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.Session",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.SessionIndex",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.SessionTimeLeft",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.Split",
+      "type": "System.Object",
+      "value": ""
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.Status",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.strategyTyreSet",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.SurfaceGrip",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.TC",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.TCCut",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.trackGripStatus",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.trackStatus",
+      "type": "System.Object",
+      "value": ""
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.TyreCompound",
+      "type": "System.Object",
+      "value": ""
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.UsedFuel",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.WindDirection",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.WindSpeed",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Graphics.WiperLV",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.Abs",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.absinAction",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.absVibrations",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.AccG01",
+      "type": "System.Object",
+      "value": -0.0003586547
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.AccG02",
+      "type": "System.Object",
+      "value": -0.00715127168
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.AccG03",
+      "type": "System.Object",
+      "value": -0.000753239437
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.AirDensity",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.AirTemp",
+      "type": "System.Object",
+      "value": 292.9451
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.AutoShifterOn",
+      "type": "System.Object",
+      "value": 1
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.Ballast",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.Brake",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.BrakeBias",
+      "type": "System.Object",
+      "value": 0.52
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.brakePressure01",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.brakePressure02",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.brakePressure03",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.brakePressure04",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.BrakeTemp01",
+      "type": "System.Object",
+      "value": 292.4283
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.BrakeTemp02",
+      "type": "System.Object",
+      "value": 292.4283
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.BrakeTemp03",
+      "type": "System.Object",
+      "value": 292.429047
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.BrakeTemp04",
+      "type": "System.Object",
+      "value": 292.4283
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.CamberRad01",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.CamberRad02",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.CamberRad03",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.CamberRad04",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.CarDamage01",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.CarDamage02",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.CarDamage03",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.CarDamage04",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.CarDamage05",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.CgHeight",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.Clutch",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.currentMaxRpm",
+      "type": "System.Object",
+      "value": 1.050974e-41
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.discLife01",
+      "type": "System.Object",
+      "value": 3.20000036e-05
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.discLife02",
+      "type": "System.Object",
+      "value": 3.20000036e-05
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.discLife03",
+      "type": "System.Object",
+      "value": 3.20000036e-05
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.discLife04",
+      "type": "System.Object",
+      "value": 3.20000036e-05
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.Drs",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.DrsAvailable",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.DrsEnabled",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.EngineBrake",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.ErsHeatCharging",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.ErsisCharging",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.ErsPowerLevel",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.ErsRecoveryLevel",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.FinalFF",
+      "type": "System.Object",
+      "value": 0.0112740509
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.frontBrakeCompound",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.Fuel",
+      "type": "System.Object",
+      "value": 30.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.fx01",
+      "type": "System.Object",
+      "value": 10.3700848
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.fx02",
+      "type": "System.Object",
+      "value": -3.7023437
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.fx03",
+      "type": "System.Object",
+      "value": -20.1826267
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.fx04",
+      "type": "System.Object",
+      "value": -6.998243
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.fy01",
+      "type": "System.Object",
+      "value": -166.483047
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.fy02",
+      "type": "System.Object",
+      "value": -90.78617
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.fy03",
+      "type": "System.Object",
+      "value": 300.2538
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.fy04",
+      "type": "System.Object",
+      "value": 2.37974215
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.Gas",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.Gear",
+      "type": "System.Object",
+      "value": 2
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.gVibrations",
+      "type": "System.Object",
+      "value": 0.0169332679
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.Heading",
+      "type": "System.Object",
+      "value": -1.84038091
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.ignitionOn",
+      "type": "System.Object",
+      "value": 1
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.IsAIControlled",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.isEngineRunning",
+      "type": "System.Object",
+      "value": 1
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.kerbVibration",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.KersCharge",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.KersCurrentKJ",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.KersInput",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.LocalAngularVelocity01",
+      "type": "System.Object",
+      "value": -0.00033829172
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.LocalAngularVelocity02",
+      "type": "System.Object",
+      "value": 0.0006252205
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.LocalAngularVelocity03",
+      "type": "System.Object",
+      "value": -0.000235598345
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.LocalVelocity01",
+      "type": "System.Object",
+      "value": -2.19298054e-05
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.LocalVelocity02",
+      "type": "System.Object",
+      "value": -0.0004858586
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.LocalVelocity03",
+      "type": "System.Object",
+      "value": -0.0007484351
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.mz01",
+      "type": "System.Object",
+      "value": 4.761406
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.mz02",
+      "type": "System.Object",
+      "value": -1.20891547
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.mz03",
+      "type": "System.Object",
+      "value": 7.28278446
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.mz04",
+      "type": "System.Object",
+      "value": 0.0444003977
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.NumberOfTyresOut",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.P2PActivation",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.P2PStatus",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.PacketId",
+      "type": "System.Object",
+      "value": 273010
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.padLife01",
+      "type": "System.Object",
+      "value": 1.8e-05
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.padLife02",
+      "type": "System.Object",
+      "value": 1.8e-05
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.padLife03",
+      "type": "System.Object",
+      "value": 1.8e-05
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.padLife04",
+      "type": "System.Object",
+      "value": 1.8e-05
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.PerformanceMeter",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.Pitch",
+      "type": "System.Object",
+      "value": -0.00990947
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.PitLimiterOn",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.rearBrakeCompound",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.RideHeight01",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.RideHeight02",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.RoadTemp",
+      "type": "System.Object",
+      "value": 292.9444
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.Roll",
+      "type": "System.Object",
+      "value": 0.508497
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.Rpms",
+      "type": "System.Object",
+      "value": 1918
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.slipAngle01",
+      "type": "System.Object",
+      "value": -0.00309722149
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.slipAngle02",
+      "type": "System.Object",
+      "value": -0.00278054317
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.slipAngle03",
+      "type": "System.Object",
+      "value": 0.00642878376
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.slipAngle04",
+      "type": "System.Object",
+      "value": 4.80367453e-05
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.slipRatio01",
+      "type": "System.Object",
+      "value": 0.000215233362
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.slipRatio02",
+      "type": "System.Object",
+      "value": -0.000143959027
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.slipRatio03",
+      "type": "System.Object",
+      "value": -0.00047231192
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.slipRatio04",
+      "type": "System.Object",
+      "value": -0.0001843744
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.slipVibrations",
+      "type": "System.Object",
+      "value": 3.37644747e-06
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.SpeedKmh",
+      "type": "System.Object",
+      "value": 0.00298265927
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.starterEngineOn",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.SteerAngle",
+      "type": "System.Object",
+      "value": 0.357285917
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.suspensionDamage01",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.suspensionDamage02",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.suspensionDamage03",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.suspensionDamage04",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.SuspensionTravel01",
+      "type": "System.Object",
+      "value": 0.08361581
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.SuspensionTravel02",
+      "type": "System.Object",
+      "value": 0.0274955556
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.SuspensionTravel03",
+      "type": "System.Object",
+      "value": 0.0479452461
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.SuspensionTravel04",
+      "type": "System.Object",
+      "value": 0.0561998971
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TC",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.tcinAction",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.Turbo",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreContactHeading01.X",
+      "type": "System.Object",
+      "value": -0.992450953
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreContactHeading01.Y",
+      "type": "System.Object",
+      "value": -0.01163612
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreContactHeading01.Z",
+      "type": "System.Object",
+      "value": 0.122088894
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreContactHeading02.X",
+      "type": "System.Object",
+      "value": -0.9815838
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreContactHeading02.Y",
+      "type": "System.Object",
+      "value": -0.103463851
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreContactHeading02.Z",
+      "type": "System.Object",
+      "value": 0.160588011
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreContactHeading03.X",
+      "type": "System.Object",
+      "value": -0.9628051
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreContactHeading03.Y",
+      "type": "System.Object",
+      "value": 0.00133134867
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreContactHeading03.Z",
+      "type": "System.Object",
+      "value": 0.270193547
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreContactHeading04.X",
+      "type": "System.Object",
+      "value": -0.9630424
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreContactHeading04.Y",
+      "type": "System.Object",
+      "value": 0.005560642
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreContactHeading04.Z",
+      "type": "System.Object",
+      "value": 0.269292623
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreContactNormal01.X",
+      "type": "System.Object",
+      "value": -0.00307689235
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreContactNormal01.Y",
+      "type": "System.Object",
+      "value": 0.989563942
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreContactNormal01.Z",
+      "type": "System.Object",
+      "value": 0.0860284641
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreContactNormal02.X",
+      "type": "System.Object",
+      "value": -0.0822824761
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreContactNormal02.Y",
+      "type": "System.Object",
+      "value": 0.8576184
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreContactNormal02.Z",
+      "type": "System.Object",
+      "value": -0.506378531
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreContactNormal03.X",
+      "type": "System.Object",
+      "value": 0.102043785
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreContactNormal03.Y",
+      "type": "System.Object",
+      "value": 0.8694799
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreContactNormal03.Z",
+      "type": "System.Object",
+      "value": 0.325027347
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreContactNormal04.X",
+      "type": "System.Object",
+      "value": -0.117687456
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreContactNormal04.Y",
+      "type": "System.Object",
+      "value": 0.866954267
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreContactNormal04.Z",
+      "type": "System.Object",
+      "value": -0.4838276
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreContactPoint01.X",
+      "type": "System.Object",
+      "value": -2693.49
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreContactPoint01.Y",
+      "type": "System.Object",
+      "value": 435.5051
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreContactPoint01.Z",
+      "type": "System.Object",
+      "value": 888.572632
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreContactPoint02.X",
+      "type": "System.Object",
+      "value": -2693.11523
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreContactPoint02.Y",
+      "type": "System.Object",
+      "value": 436.210815
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreContactPoint02.Z",
+      "type": "System.Object",
+      "value": 889.9638
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreContactPoint03.X",
+      "type": "System.Object",
+      "value": -2695.949
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreContactPoint03.Y",
+      "type": "System.Object",
+      "value": 435.4824
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreContactPoint03.Z",
+      "type": "System.Object",
+      "value": 889.290649
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreContactPoint04.X",
+      "type": "System.Object",
+      "value": -2695.57129
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreContactPoint04.Y",
+      "type": "System.Object",
+      "value": 436.265472
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreContactPoint04.Z",
+      "type": "System.Object",
+      "value": 890.6361
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreCoreTemperature01",
+      "type": "System.Object",
+      "value": 293.11
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreCoreTemperature02",
+      "type": "System.Object",
+      "value": 293.228729
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreCoreTemperature03",
+      "type": "System.Object",
+      "value": 293.233032
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreCoreTemperature04",
+      "type": "System.Object",
+      "value": 293.273468
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreDirtyLevel01",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreDirtyLevel02",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreDirtyLevel03",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreDirtyLevel04",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.tyreTemp01",
+      "type": "System.Object",
+      "value": 293.11
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.tyreTemp02",
+      "type": "System.Object",
+      "value": 293.228729
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.tyreTemp03",
+      "type": "System.Object",
+      "value": 293.233032
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.tyreTemp04",
+      "type": "System.Object",
+      "value": 293.273468
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreTempI01",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreTempI02",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreTempI03",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreTempI04",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreTempM01",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreTempM02",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreTempM03",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreTempM04",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreTempO01",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreTempO02",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreTempO03",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreTempO04",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreWear01",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreWear02",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreWear03",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.TyreWear04",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.Velocity01",
+      "type": "System.Object",
+      "value": -0.0006572173
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.Velocity02",
+      "type": "System.Object",
+      "value": -0.000406272768
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.Velocity03",
+      "type": "System.Object",
+      "value": 0.000446880731
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.waterTemperature",
+      "type": "System.Object",
+      "value": 344.523865
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.WheelAngularSpeed01",
+      "type": "System.Object",
+      "value": -0.000477204565
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.WheelAngularSpeed02",
+      "type": "System.Object",
+      "value": -0.00163824332
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.WheelAngularSpeed03",
+      "type": "System.Object",
+      "value": -0.005869354
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.WheelAngularSpeed04",
+      "type": "System.Object",
+      "value": -0.0013868981
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.WheelLoad01",
+      "type": "System.Object",
+      "value": 6403.30469
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.WheelLoad02",
+      "type": "System.Object",
+      "value": 1399.87268
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.WheelLoad03",
+      "type": "System.Object",
+      "value": 4390.895
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.WheelLoad04",
+      "type": "System.Object",
+      "value": 2755.55249
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.WheelSlip01",
+      "type": "System.Object",
+      "value": 0.00309757772
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.WheelSlip02",
+      "type": "System.Object",
+      "value": 0.00278067822
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.WheelSlip03",
+      "type": "System.Object",
+      "value": 0.0064297216
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.WheelSlip04",
+      "type": "System.Object",
+      "value": 0.000185456287
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.WheelsPressure01",
+      "type": "System.Object",
+      "value": 25.9985733
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.WheelsPressure02",
+      "type": "System.Object",
+      "value": 26.0060616
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.WheelsPressure03",
+      "type": "System.Object",
+      "value": 26.0062943
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.Physics.WheelsPressure04",
+      "type": "System.Object",
+      "value": 26.00886
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.ACVersion",
+      "type": "System.Object",
+      "value": ""
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.AidAllowTyreBlankets",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.AidAutoBlip",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.AidAutoClutch",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.AidFuelRate",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.AidMechanicalDamage",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.AidStability",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.AidTireRate",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.CarModel",
+      "type": "System.Object",
+      "value": "Hyundai i20N Rally2"
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.carSkin",
+      "type": "System.Object",
+      "value": ""
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.Deprecated_1",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.Deprecated_2",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.dryTyresName",
+      "type": "System.Object",
+      "value": ""
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.EngineBrakeSettingsCount",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.ErsMaxJ",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.ErsPowerControllerCount",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.HasDRS",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.HasERS",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.HasExtraLap",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.HasKERS",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.IsOnline",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.IsTimedRace",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.KersMaxJ",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.MaxFuel",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.MaxPower",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.MaxRpm",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.MaxTorque",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.MaxTurboBoost",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.NumberOfSessions",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.NumCars",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.PenaltiesEnabled",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.PitWindowEnd",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.PitWindowStart",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.PlayerName",
+      "type": "System.Object",
+      "value": "该管管了"
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.PlayerNick",
+      "type": "System.Object",
+      "value": ""
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.PlayerSurname",
+      "type": "System.Object",
+      "value": ""
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.ReversedGridPositions",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.SectorCount",
+      "type": "System.Object",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.SMVersion",
+      "type": "System.Object",
+      "value": ""
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.SuspensionMaxTravel01",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.SuspensionMaxTravel02",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.SuspensionMaxTravel03",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.SuspensionMaxTravel04",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.Track",
+      "type": "System.Object",
+      "value": "阿尔萨斯 施泰因巴赫"
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.TrackConfiguration",
+      "type": "System.Object",
+      "value": ""
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.TrackSplineLength",
+      "type": "System.Object",
+      "value": 9513.657
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.TyreRadius01",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.TyreRadius02",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.TyreRadius03",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.TyreRadius04",
+      "type": "System.Object",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.GameRawData.StaticInfo.wetTyresName",
+      "type": "System.Object",
+      "value": ""
+    },
+    {
+      "name": "DataCorePlugin.GameRunning",
+      "type": "System.Int32",
+      "value": 1
+    },
+    {
+      "name": "DataCorePlugin.GameVolume",
+      "type": "System.Int32",
+      "value": 100
+    },
+    {
+      "name": "DataCorePlugin.HeartRateMonitorLastBPM",
+      "type": "System.Nullable`1[[System.UInt16, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+      "value": null
+    },
+    {
+      "name": "DataCorePlugin.HeartRateMonitorSimulatedBloodPressure",
+      "type": "System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+      "value": null
+    },
+    {
+      "name": "DataCorePlugin.LoggingErrorsCount",
+      "type": "System.Int32",
+      "value": 1
+    },
+    {
+      "name": "DataCorePlugin.LoggingLastMessage",
+      "type": "System.String",
+      "value": "BassShakers: Requiring audio interfaces rebuild after game start or audio settings change"
+    },
+    {
+      "name": "DataCorePlugin.LoggingLastSeverity",
+      "type": "System.String",
+      "value": "INFO"
+    },
+    {
+      "name": "DataCorePlugin.Performance_CachedFormulasPerSecond",
+      "type": "System.Double",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.Performance_CreatedJSExpressions",
+      "type": "System.Int64",
+      "value": 172
+    },
+    {
+      "name": "DataCorePlugin.Performance_CreatedNCALCExpressions",
+      "type": "System.Int64",
+      "value": 89
+    },
+    {
+      "name": "DataCorePlugin.Performance_FrameDuration",
+      "type": "System.Double",
+      "value": 0.19010000000000002
+    },
+    {
+      "name": "DataCorePlugin.Performance_JSFormulasPerSecond",
+      "type": "System.Double",
+      "value": 0.0
+    },
+    {
+      "name": "DataCorePlugin.Performance_NALCFormulasPerSecond",
+      "type": "System.Double",
+      "value": 23.341035875172143
+    },
+    {
+      "name": "DataCorePlugin.Performance_NALCOptimizedFormulasPerSecond",
+      "type": "System.Double",
+      "value": 10.00330108935949
+    },
+    {
+      "name": "DataCorePlugin.Performance_RecycledJSExpressions",
+      "type": "System.Int64",
+      "value": 0
+    },
+    {
+      "name": "DataCorePlugin.Performance_RecycledNCALCExpressions",
+      "type": "System.Int64",
+      "value": 4
+    },
+    {
+      "name": "DataCorePlugin.PluginNotification_Active",
+      "type": "System.Boolean",
+      "value": false
+    },
+    {
+      "name": "DataCorePlugin.PluginNotification_Content",
+      "type": "System.String",
+      "value": null
+    },
+    {
+      "name": "DataCorePlugin.PluginNotification_PercentValue",
+      "type": "System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+      "value": null
+    },
+    {
+      "name": "DataCorePlugin.PluginNotification_Title",
+      "type": "System.String",
+      "value": null
+    },
+    {
+      "name": "DataCorePlugin.SimHubVersion",
+      "type": "System.String",
+      "value": "9.12.8"
+    },
+    {
+      "name": "DataCorePlugin.SystemVolume",
+      "type": "System.Double",
+      "value": 100.0
+    }
+  ],
+  "actions": [
+    {
+      "name": "AudioControlPlugin.DecrementSoundsVolume"
+    },
+    {
+      "name": "AudioControlPlugin.IncrementSoundsVolume"
+    },
+    {
+      "name": "AudioControlPlugin.Play_beep-07"
+    },
+    {
+      "name": "AudioControlPlugin.Play_beep-08b"
+    },
+    {
+      "name": "AudioControlPlugin.Play_beep-09"
+    },
+    {
+      "name": "AudioControlPlugin.Play_Motion-CrashFilter"
+    },
+    {
+      "name": "AudioControlPlugin.Play_Motion-Error"
+    },
+    {
+      "name": "AudioControlPlugin.Play_shutter"
+    },
+    {
+      "name": "AudioControlPlugin.Play_shutter-countdown"
+    },
+    {
+      "name": "DataCorePlugin.DecrementForceFeedback"
+    },
+    {
+      "name": "DataCorePlugin.DecrementGameVolume"
+    },
+    {
+      "name": "DataCorePlugin.DecrementLowFuelLapLevel"
+    },
+    {
+      "name": "DataCorePlugin.DecrementRedLine"
+    },
+    {
+      "name": "DataCorePlugin.DecrementSystemVolume"
+    },
+    {
+      "name": "DataCorePlugin.IncrementForceFeedback"
+    },
+    {
+      "name": "DataCorePlugin.IncrementGameVolume"
+    },
+    {
+      "name": "DataCorePlugin.IncrementLowFuelLapLevel"
+    },
+    {
+      "name": "DataCorePlugin.IncrementRedLine"
+    },
+    {
+      "name": "DataCorePlugin.IncrementSystemVolume"
+    },
+    {
+      "name": "DataCorePlugin.MuteDefaultSoundInput"
+    },
+    {
+      "name": "DataCorePlugin.ResetMaxSpeed"
+    },
+    {
+      "name": "DataCorePlugin.RestartSession"
+    },
+    {
+      "name": "DataCorePlugin.ServerKickVoteNo"
+    },
+    {
+      "name": "DataCorePlugin.ServerKickVoteYes"
+    },
+    {
+      "name": "DataCorePlugin.ShowSimHubMainWindow"
+    },
+    {
+      "name": "DataCorePlugin.StartGame"
+    },
+    {
+      "name": "DataCorePlugin.StartReplay"
+    },
+    {
+      "name": "DataCorePlugin.StartSlowMotion"
+    },
+    {
+      "name": "DataCorePlugin.SwitchABS"
+    },
+    {
+      "name": "DataCorePlugin.SwitchAutomaticGearbox"
+    },
+    {
+      "name": "DataCorePlugin.SwitchDamageDisplayer"
+    },
+    {
+      "name": "DataCorePlugin.SwitchInGameApps"
+    },
+    {
+      "name": "DataCorePlugin.SwitchPlayersNames"
+    },
+    {
+      "name": "DataCorePlugin.SwitchRacingLine"
+    },
+    {
+      "name": "DataCorePlugin.SwitchTractionControl"
+    },
+    {
+      "name": "DataCorePlugin.ToggleDayNightMode"
+    },
+    {
+      "name": "DataCorePlugin.ToggleManualGameActivation"
+    },
+    {
+      "name": "DataCorePlugin.TogglePerGearRedline"
+    },
+    {
+      "name": "DataCorePlugin.ToggleRecord"
+    },
+    {
+      "name": "GraphicalDashPlugin.ActionA"
+    },
+    {
+      "name": "GraphicalDashPlugin.ActionB"
+    },
+    {
+      "name": "GraphicalDashPlugin.ActionC"
+    },
+    {
+      "name": "GraphicalDashPlugin.ActionD"
+    },
+    {
+      "name": "GraphicalDashPlugin.CycleNextDash"
+    },
+    {
+      "name": "GraphicalDashPlugin.CyclePreviousDash"
+    },
+    {
+      "name": "GraphicalDashPlugin.FirstScreen"
+    },
+    {
+      "name": "GraphicalDashPlugin.NextScreen"
+    },
+    {
+      "name": "GraphicalDashPlugin.OverlayClose"
+    },
+    {
+      "name": "GraphicalDashPlugin.OverlayEditToggle"
+    },
+    {
+      "name": "GraphicalDashPlugin.OverlayHideToggle"
+    },
+    {
+      "name": "GraphicalDashPlugin.OverlayLayoutRestart"
+    },
+    {
+      "name": "GraphicalDashPlugin.PreviousScreen"
+    },
+    {
+      "name": "PersistantTrackerPlugin.ClearLapHistory"
+    },
+    {
+      "name": "PersistantTrackerPlugin.DiscardCurrentMap"
+    },
+    {
+      "name": "SerialDashPlugin.DecrementDisplayIntensity"
+    },
+    {
+      "name": "SerialDashPlugin.DecrementRGBIntensity"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreenFor1s_BestLap"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreenFor1s_BlinkingLevelChanged"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreenFor1s_CurrentLap"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreenFor1s_DisplayIntensityChanged"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreenFor1s_FrontTyres"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreenFor1s_FueLapConsumption"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreenFor1s_FuelRemainingLiters"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreenFor1s_GameVolumeChanged"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreenFor1s_LastLap"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreenFor1s_LowFuelAlert"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreenFor1s_MainScreen"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreenFor1s_NewAllTimeBestLap"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreenFor1s_NewLapDelta"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreenFor1s_NewLapLastTime"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreenFor1s_NewSessionBestLap"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreenFor1s_RearTyres"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreenFor1s_RPMStartChanged"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreenFor1s_TimeScreen"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreenFor1s_WelcomeScreen"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreenFor3s_BestLap"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreenFor3s_BlinkingLevelChanged"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreenFor3s_CurrentLap"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreenFor3s_DisplayIntensityChanged"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreenFor3s_FrontTyres"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreenFor3s_FueLapConsumption"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreenFor3s_FuelRemainingLiters"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreenFor3s_GameVolumeChanged"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreenFor3s_LastLap"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreenFor3s_LowFuelAlert"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreenFor3s_MainScreen"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreenFor3s_NewAllTimeBestLap"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreenFor3s_NewLapDelta"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreenFor3s_NewLapLastTime"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreenFor3s_NewSessionBestLap"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreenFor3s_RearTyres"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreenFor3s_RPMStartChanged"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreenFor3s_TimeScreen"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreenFor3s_WelcomeScreen"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreen_BestLap"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreen_BlinkingLevelChanged"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreen_CurrentLap"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreen_DisplayIntensityChanged"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreen_FrontTyres"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreen_FueLapConsumption"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreen_FuelRemainingLiters"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreen_GameVolumeChanged"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreen_LastLap"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreen_LowFuelAlert"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreen_MainScreen"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreen_NewAllTimeBestLap"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreen_NewLapDelta"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreen_NewLapLastTime"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreen_NewSessionBestLap"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreen_RearTyres"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreen_RPMStartChanged"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreen_TimeScreen"
+    },
+    {
+      "name": "SerialDashPlugin.DisplayScreen_WelcomeScreen"
+    },
+    {
+      "name": "SerialDashPlugin.GLCD_DisplayScreenFor1s_0_Map"
+    },
+    {
+      "name": "SerialDashPlugin.GLCD_DisplayScreenFor1s_1_Default"
+    },
+    {
+      "name": "SerialDashPlugin.GLCD_DisplayScreenFor1s_2"
+    },
+    {
+      "name": "SerialDashPlugin.GLCD_DisplayScreenFor1s_3"
+    },
+    {
+      "name": "SerialDashPlugin.GLCD_DisplayScreenFor1s_BlinkTriggerChanged"
+    },
+    {
+      "name": "SerialDashPlugin.GLCD_DisplayScreenFor1s_GameVolumeChanged"
+    },
+    {
+      "name": "SerialDashPlugin.GLCD_DisplayScreenFor1s_NewLap"
+    },
+    {
+      "name": "SerialDashPlugin.GLCD_DisplayScreenFor1s_TurboChanged"
+    },
+    {
+      "name": "SerialDashPlugin.GLCD_DisplayScreenFor3s_0_Map"
+    },
+    {
+      "name": "SerialDashPlugin.GLCD_DisplayScreenFor3s_1_Default"
+    },
+    {
+      "name": "SerialDashPlugin.GLCD_DisplayScreenFor3s_2"
+    },
+    {
+      "name": "SerialDashPlugin.GLCD_DisplayScreenFor3s_3"
+    },
+    {
+      "name": "SerialDashPlugin.GLCD_DisplayScreenFor3s_BlinkTriggerChanged"
+    },
+    {
+      "name": "SerialDashPlugin.GLCD_DisplayScreenFor3s_GameVolumeChanged"
+    },
+    {
+      "name": "SerialDashPlugin.GLCD_DisplayScreenFor3s_NewLap"
+    },
+    {
+      "name": "SerialDashPlugin.GLCD_DisplayScreenFor3s_TurboChanged"
+    },
+    {
+      "name": "SerialDashPlugin.GLCD_DisplayScreen_0_Map"
+    },
+    {
+      "name": "SerialDashPlugin.GLCD_DisplayScreen_1_Default"
+    },
+    {
+      "name": "SerialDashPlugin.GLCD_DisplayScreen_2"
+    },
+    {
+      "name": "SerialDashPlugin.GLCD_DisplayScreen_3"
+    },
+    {
+      "name": "SerialDashPlugin.GLCD_DisplayScreen_BlinkTriggerChanged"
+    },
+    {
+      "name": "SerialDashPlugin.GLCD_DisplayScreen_GameVolumeChanged"
+    },
+    {
+      "name": "SerialDashPlugin.GLCD_DisplayScreen_NewLap"
+    },
+    {
+      "name": "SerialDashPlugin.GLCD_DisplayScreen_TurboChanged"
+    },
+    {
+      "name": "SerialDashPlugin.GLCD_GoToFirstScreen"
+    },
+    {
+      "name": "SerialDashPlugin.GLCD_NextScreen"
+    },
+    {
+      "name": "SerialDashPlugin.GLCD_PreviousScreen"
+    },
+    {
+      "name": "SerialDashPlugin.GoToFirstScreen"
+    },
+    {
+      "name": "SerialDashPlugin.IncrementDisplayIntensity"
+    },
+    {
+      "name": "SerialDashPlugin.IncrementRGBIntensity"
+    },
+    {
+      "name": "SerialDashPlugin.NextLedLayout"
+    },
+    {
+      "name": "SerialDashPlugin.NextScreen"
+    },
+    {
+      "name": "SerialDashPlugin.OLED_DisplayScreenFor1s_0_Default"
+    },
+    {
+      "name": "SerialDashPlugin.OLED_DisplayScreenFor1s_TurboChanged"
+    },
+    {
+      "name": "SerialDashPlugin.OLED_DisplayScreenFor3s_0_Default"
+    },
+    {
+      "name": "SerialDashPlugin.OLED_DisplayScreenFor3s_TurboChanged"
+    },
+    {
+      "name": "SerialDashPlugin.OLED_DisplayScreen_0_Default"
+    },
+    {
+      "name": "SerialDashPlugin.OLED_DisplayScreen_TurboChanged"
+    },
+    {
+      "name": "SerialDashPlugin.OLED_GoToFirstScreen"
+    },
+    {
+      "name": "SerialDashPlugin.OLED_NextScreen"
+    },
+    {
+      "name": "SerialDashPlugin.OLED_PreviousScreen"
+    },
+    {
+      "name": "SerialDashPlugin.PreviousLedLayout"
+    },
+    {
+      "name": "SerialDashPlugin.PreviousScreen"
+    },
+    {
+      "name": "ShakeITBSV3Plugin.MainFeedbackLevelDecrement"
+    },
+    {
+      "name": "ShakeITBSV3Plugin.MainFeedbackLevelIncrement"
+    },
+    {
+      "name": "ShakeITBSV3Plugin.ResetCalibration"
+    },
+    {
+      "name": "ShakeITBSV3Plugin.ToggleMuteFeedback"
+    },
+    {
+      "name": "ShakeITMotorsV3Plugin.MainFeedbackLevelDecrement"
+    },
+    {
+      "name": "ShakeITMotorsV3Plugin.MainFeedbackLevelIncrement"
+    },
+    {
+      "name": "ShakeITMotorsV3Plugin.ResetCalibration"
+    },
+    {
+      "name": "ShakeITMotorsV3Plugin.ToggleMuteFeedback"
+    },
+    {
+      "name": "ShakeItWindPlugin.DynamicWind.DecreaseGain"
+    },
+    {
+      "name": "ShakeItWindPlugin.DynamicWind.IncreaseGain"
+    },
+    {
+      "name": "ShakeItWindPlugin.DynamicWind.MuteToggle"
+    },
+    {
+      "name": "ShakeItWindPlugin.StaticWind.DecreaseGain"
+    },
+    {
+      "name": "ShakeItWindPlugin.StaticWind.IncreaseGain"
+    },
+    {
+      "name": "ShakeItWindPlugin.StaticWind.MuteToggle"
+    },
+    {
+      "name": "ShakeItWindPlugin.Wind.CurrentModeMuteToggle"
+    },
+    {
+      "name": "ShakeItWindPlugin.Wind.DecreaseCurrentModeGain"
+    },
+    {
+      "name": "ShakeItWindPlugin.Wind.IncreaseCurrentModeGain"
+    },
+    {
+      "name": "ShakeItWindPlugin.Wind.WindMuteToggle"
+    },
+    {
+      "name": "SystemControl.MediaNext"
+    },
+    {
+      "name": "SystemControl.MediaPlayPause"
+    },
+    {
+      "name": "SystemControl.MediaPrevious"
+    }
+  ]
+}

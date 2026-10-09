@@ -1,0 +1,16 @@
+﻿{
+    "pointer_size":  4,
+    "pid":  58568,
+    "object":  "0x1c1bd9a20e0",
+    "locate_ms":  137.19150000000002,
+    "total_ms":  403.99690000000004,
+    "value":  {
+                  "Valid":  true,
+                  "AbsEnabled":  true,
+                  "TcsEnabled":  false,
+                  "AbsLevel":  1,
+                  "TcsLevel":  1,
+                  "TimestampUtc":  "\/Date(1791561465441)\/",
+                  "Status":  "自动定位 / 当前车辆设置"
+              }
+}
