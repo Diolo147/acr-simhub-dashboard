@@ -1,4 +1,8 @@
-GitHub 提交准备（2026-10-10）：用户已创建公开仓库 https://github.com/Diolo147/acr-simhub-dashboard，main 初始提交9952de9a76fa34cef7fafab1f9b76fc3b7ab42bb。本机已初始化 Git 并连接 origin，保留用户初始提交。新增 README.md（已完成功能、验证、安装与构建入口）、ROADMAP.md（候选参数、更新适配和验收）、AGENTS.md（接手约定）。当前整理45个明确选择的源码、原生文件、安装包、脚本和有限证据，排除本机完整日志/硬件属性清单、备份、原始NPZ和第三方参考仪表。离线测试提供只有DataCorePlugin/ACRControlsPlugin的612项游戏属性夹具；JS验证/预览脚本支持仓库相对路径及夹具回退，构建插件不再要求旧固定地址配置。准备清单work/github-publication-manifest.json仅本机，生成脚本work/prepare-github-publication.py已纳入源码。GitHub插件负责提交，不依赖gh登录；完成后追加实际远端SHA，当前不能视为已推送。
+GitHub 发布完成（2026-10-10）：已通过 GitHub 插件将 v2.5 原生仪表、ABS/TCS 自动定位插件、源码、构建/验证脚本、安装包、必要实测摘要及后续实现说明提交到公开仓库 https://github.com/Diolo147/acr-simhub-dashboard 的 main。功能提交47dd22f901f642128ed5753f4fae9ec9466ee518（https://github.com/Diolo147/acr-simhub-dashboard/commit/47dd22f901f642128ed5753f4fae9ec9466ee518），保留用户初始提交9952de9。45个文件的Git blob SHA逐项校验，远端tree1922ebfb7f1109df99e23edb5d09afc458200ea2与本地暂存tree完全一致，远端main已fetch核对。本段作为后续文档提交记录实际结果；功能提交里的“待提交”是此前准备状态，现已完成。
+
+新增入口 README.md、后续研究 ROADMAP.md、agent接手 AGENTS.md；安装包在dist/，原生编辑文件在build/，源码在src/。公开离线夹具work/fixtures/live-catalog.json仅612项DataCorePlugin/ACRControlsPlugin游戏属性；使用该夹具（不读取本机完整清单）验证216组件126绑定及零值/单位/缺失/过期/退出/自动来源测试通过。测试和预览JS支持相对项目路径及夹具回退，插件构建已删除对旧session-profile的复制依赖。原始NPZ、完整硬件属性清单、备份、第三方参考仪表和本机完整日志均未提交；选定文本凭据模式检查通过。研究计划不代表灯光/发动机曲线/损伤等已经定位。
+
+本机Git已连接origin并保持与远端main同步。本机没有gh或缓存GitHub Git凭据，本次写入使用连接的GitHub插件，公开fetch使用普通Git。后续agent可使用已授权GitHub连接提交；不要为此索取用户token或删除本机被.gitignore保留的实验资料。发布清单work/github-publication-manifest.json与上传中间文件仅本机；公开准备脚本work/prepare-github-publication.py会刷新夹具和dist，执行前审查当前输出包。当前仪表运行状态无需重启。
 
 当前版本 v2.5（2026-10-10 00:12）：ABS/TCS菜单设置自动定位已编译安装，运行仪表已加载。已实测：SimHub保持运行，游戏退出时清空，新游戏PID自动恢复有效值；无需修改配置。 当前实际记录ABS开启·1档、TCS关闭，PID49008，定位113.9ms；菜单关闭时仪表仅显示“关闭”，不显示隐藏选择档位。保留四轮集中布局、psi、校准与所有既有仪表。以下旧版固定地址限制是历史记录，以本段及新版插件说明为准。
 
